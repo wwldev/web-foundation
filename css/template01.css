@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  box-sizing: border-box;
+  width: 75%;
+  margin: 0 auto;
+}
+header {
+  height: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header h4 {
+  display: inline;
+}
+header nav {
+  display: inline;
+}
+nav ul {
+  display: inline;
+}
+nav ul li {
+  display: inline;
+  margin-left: 10px;
+}
+nav ul li:first-child {
+  margin-left: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+header span {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 1.5em;
+}
+header span img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
