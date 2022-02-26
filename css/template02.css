@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5em;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav li {
+  margin-right: 2em;
+}
+.hero-section {
+  background-image: url("../img/confetti-doodles.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first-para{
+  font-size: 3em;
+  width: 65%;
+  margin-top: 1em;
+}
+.second-para{
+  font-size: 1em;
+  width: 65%;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.button {
+  border-radius: 1em;
+  padding: 1em;
+  width: 7em;
+}
+.primary-button {
+  margin-right: 1em;
+  background-color: #f7f9fc;
+  border-style: none;
+}
+.secondary-button {
+  background-color: #231f20;
+  color: #f7f9fc;
+  border-style: none;
+}
+.hero-buttons {
+  margin: 1em 0;
+}
+.hero-first-button {
+  width: 7.5em;
+}
+.hero-second-button {
+  width: 9em;
+}
